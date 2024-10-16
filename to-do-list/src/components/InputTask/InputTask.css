@@ -1,0 +1,103 @@
+.input-task-container {
+  width: 500px;
+  height: 200px;
+
+  background-color: rgb(236, 110, 36);
+
+  padding: 10px;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-task-h {
+  font-size: 25px;
+  color: rgb(125, 210, 243);
+  background-color: rgb(253, 124, 49);
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-inp {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+button {
+  border-radius: 5px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: #000;
+}
+
+button:hover {
+  border-color: orange;
+}
+
+button:active {
+  background-color: whitesmoke;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.inp {
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+  color: #000;
+}
+
+.task-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  max-width: 500px;
+  gap: 10px;
+}
+
+.task-and-btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-btn {
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.select-all {
+  display: flex;
+  margin-top: 10px;
+}
+
+.clear-selected {
+  display: flex;
+  margin-top: 10px;
+}

@@ -1,0 +1,18 @@
+.checkbox {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  user-select: none;
+  background-color: aqua;
+}
+
+/* .checkbox[type="checkbox"] {
+  -webkit-transform: scale(2); 
+  -moz-transform: scale(2); 
+  -ms-transform: scale(2); 
+  transform: scale(2); 
+} */

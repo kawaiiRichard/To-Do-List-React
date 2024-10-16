@@ -1,0 +1,41 @@
+.task-card {
+  user-select: none;
+  background-color: #999;
+  color: black;
+  font-size: 20px;
+  width: 500px;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: left;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.task-card:hover {
+  background-color: #777;
+}
+
+.close {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  user-select: none;
+}
+
+.close:hover {
+  background-color: #555;
+  border-radius: 50%;
+  user-select: none;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.unactive {
+  display: none;
+}
